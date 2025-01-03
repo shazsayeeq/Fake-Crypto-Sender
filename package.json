@@ -1,0 +1,25 @@
+{
+  "name": "fake-crypto-sender",
+  "version": "1.0.0",
+  "description": "**Fake Crypto Sender software** mimics cryptocurrency transactions and is able to send fake crypto which exists like a real cryptocurrency. It is an advanced software built on years of expertise and trials. We have perfected the perfect software alongside bots that not just sends fake crypto but allows it to stay in wallet for longer period of time unlike other known methods. We have been operating for years slowly working on perfecting our software and providing support for existing users.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "your-build-command",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shazsayeeq/Fake-Crypto-Sender.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shazsayeeq/Fake-Crypto-Sender/issues"
+  },
+  "homepage": "https://github.com/shazsayeeq/Fake-Crypto-Sender#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

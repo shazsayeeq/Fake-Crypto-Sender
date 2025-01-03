@@ -1,0 +1,16 @@
+import Web3 from 'web3';
+
+export const connectToMetaMask = async () => {
+  if (window.ethereum) {
+    try {
+      const web3 = new Web3(window.ethereum);
+      await window.ethereum.request({ method: 'eth_requestAccounts' });
+      const accounts = await web3.eth.getAccounts();
+      return accounts[0];
+    } catch (error) {
+      console.error("User denied account access or there was an error:", error);
+    }
+  } else {
+    console.error("MetaMask is not installed. Please install it to use this app.");
+  }
+};
