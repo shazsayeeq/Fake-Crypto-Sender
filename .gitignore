@@ -1,0 +1,9 @@
+# Ignore macOS system files
+.DS_Store
+Library/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build directory
+build/
